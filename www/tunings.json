@@ -1,0 +1,78 @@
+[
+    {
+      "name": "Standard Tuning",
+      "strings": ["E", "A", "D", "G", "B", "E"]
+    },
+    {
+      "name": "Open E",
+      "strings": ["E", "B", "E", "G", "B", "E"]
+    },
+    {
+      "name": "Open D",
+      "strings": ["D", "A", "D", "F#", "A", "D"]
+    },
+    {
+      "name": "Open G",
+      "strings": ["D", "G", "D", "G", "B", "D"]
+    },
+    {
+      "name": "Open A",
+      "strings": ["E", "A", "E", "A", "C#", "E"]
+    },
+    {
+      "name": "DADGAD",
+      "strings": ["D", "A", "D", "G", "A", "D"]
+    },
+    {
+      "name": "Drop D",
+      "strings": ["D", "A", "D", "G", "B", "E"]
+    },
+    {
+      "name": "Drop C",
+      "strings": ["C", "G", "C", "F", "A", "D"]
+    },
+    {
+      "name": "All Fourths",
+      "strings": ["E", "A", "D", "G", "C", "F"]
+    },
+    {
+      "name": "All Fifths",
+      "strings": ["G", "D", "A", "E", "B", "F#"]
+    },
+    {
+      "name": "Open C",
+      "strings": ["C", "G", "C", "G", "C", "E"]
+    },
+    {
+      "name": "Open F",
+      "strings": ["F", "C", "F", "A", "C", "F"]
+    },
+    {
+      "name": "Open G Minor",
+      "strings": ["D", "G", "D", "G", "B", "D"]
+    },
+    {
+      "name": "Open D Minor",
+      "strings": ["D", "A", "D", "F", "A", "D"]
+    },
+    {
+      "name": "Baritone Tuning",
+      "strings": ["B", "E", "A", "D", "F#", "B"]
+    },
+    {
+      "name": "Seven-String Tuning",
+      "strings": ["E", "A", "D", "G", "B", "E", "B"]
+    },
+    {
+      "name": "Eight-String Tuning",
+      "strings": ["F#", "B", "E", "A", "D", "G", "B", "E"]
+    },
+    {
+      "name": "Nine-String Tuning",
+      "strings": ["B", "E", "A", "D", "G", "B", "E", "A", "C#"]
+    },
+    {
+      "name": "Ten-String Tuning",
+      "strings": ["F#", "B", "E", "A", "D", "G", "B", "E", "A", "C#"]
+    }
+  ]

@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.kanon.scalegenius.twa",
+      "sha256_cert_fingerprints":
+        ["20:EC:80:09:BE:4C:93:E9:29:FA:4C:89:26:2D:78:B8:FA:D8:2B:DF:53:28:F6:90:E4:36:D5:67:99:BC:D8:9D"]
+    }
+  }
+]

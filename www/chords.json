@@ -1,0 +1,126 @@
+{
+    "Maj": {
+        "Name": "Major",
+        "Intervals": [0, 4, 7]
+    },
+    "m": {
+        "Name": "Minor",
+        "Intervals": [0, 3, 7]
+    },
+    "7": {
+        "Name": "Dominant7",
+        "Intervals": [0, 4, 7, 10]
+    },
+    "Maj7": {
+        "Name": "Major7",
+        "Intervals": [0, 4, 7, 11]
+    },
+    "m7": {
+        "Name": "Minor7",
+        "Intervals": [0, 3, 7, 10]
+    },
+    "dim": {
+        "Name": "Diminished",
+        "Intervals": [0, 3, 6]
+    },
+    "aug": {
+        "Name": "Augmented",
+        "Intervals": [0, 4, 8]
+    },
+    "sus2": {
+        "Name": "Suspended2",
+        "Intervals": [0, 2, 7]
+    },
+    "sus4": {
+        "Name": "Suspended4",
+        "Intervals": [0, 5, 7]
+    },
+    "m6": {
+        "Name": "Minor6",
+        "Intervals": [0, 3, 7, 9]
+    },
+    "Maj6": {
+        "Name": "Major6",
+        "Intervals": [0, 4, 7, 9]
+    },
+    "m9": {
+        "Name": "Minor9",
+        "Intervals": [0, 3, 7, 10, 14]
+    },
+    "Maj9": {
+        "Name": "Major9",
+        "Intervals": [0, 4, 7, 11, 14]
+    },
+    "9": {
+        "Name": "Dominant9",
+        "Intervals": [0, 4, 7, 10, 14]
+    },
+    "dim7": {
+        "Name": "Diminished7",
+        "Intervals": [0, 3, 6, 9]
+    },
+    "m7b5": {
+        "Name": "HalfDiminished7",
+        "Intervals": [0, 3, 6, 10]
+    },
+    "mMaj7": {
+        "Name": "MinorMajor7",
+        "Intervals": [0, 3, 7, 11]
+    },
+    "m11": {
+        "Name": "Minor11",
+        "Intervals": [0, 3, 7, 10, 14]
+    },
+    "Maj11": {
+        "Name": "Major11",
+        "Intervals": [0, 4, 7, 11, 14, 17]
+    },
+    "m13": {
+        "Name": "Minor13",
+        "Intervals": [0, 3, 7, 10, 14, 17]
+    },
+    "Maj13": {
+        "Name": "Major13",
+        "Intervals": [0, 4, 7, 11, 14, 17, 21]
+    },
+    "7b5": {
+        "Name": "Dominant7Flat5",
+        "Intervals": [0, 4, 6, 10]
+    },
+    "7#5": {
+        "Name": "Dominant7Sharp5",
+        "Intervals": [0, 4, 8, 10]
+    },
+    "7b9": {
+        "Name": "Dominant7Flat9",
+        "Intervals": [0, 4, 7, 10, 13]
+    },
+    "7#9": {
+        "Name": "Dominant7Sharp9",
+        "Intervals": [0, 4, 7, 10, 15]
+    },
+    "dimMaj7": {
+        "Name": "DiminishedMajor7",
+        "Intervals": [0, 3, 6, 11]
+    },
+    "augMaj7": {
+        "Name": "AugmentedMajor7",
+        "Intervals": [0, 4, 8, 11]
+    },
+    "7sus4": {
+        "Name": "Dominant7Sus4",
+        "Intervals": [0, 5, 7, 10]
+    },
+    "7sus2": {
+        "Name": "Dominant7Sus2",
+        "Intervals": [0, 2, 7, 10]
+    },
+    "9sus4": {
+        "Name": "Dominant9Sus4",
+        "Intervals": [0, 5, 7, 10, 14]
+    },
+    "9sus2": {
+        "Name": "Dominant9Sus2",
+        "Intervals": [0, 2, 7, 10, 14]
+    }
+}

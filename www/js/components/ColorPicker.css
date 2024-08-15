@@ -1,0 +1,46 @@
+.color-picker-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 150px;
+    background: linear-gradient(to right, rgb(255, 0, 0) 0%, rgb(255, 255, 0) 20%, rgb(0, 255, 0) 40%, rgb(0, 255, 255) 60%, rgb(0, 0, 255) 80%, rgb(255, 0, 255) 100%);
+    border-radius: 2px;
+    visibility: hidden;
+    left: 0;
+}
+
+.select-color {
+    position: absolute;
+    height: 100%;
+    aspect-ratio: 1/1;
+    border: 3px solid #000;
+    border-radius: 10px;
+    
+
+    transition: border-color 150ms linear;
+}
+
+.select-color:hover {
+    border-color: aliceblue;
+    cursor: pointer;
+
+    transition: border-color 150ms ease-out;
+}
+
+.select-color.active {
+    border-width: 3px;
+    cursor: pointer;
+    transition: border-color 150ms ease-out;
+}
+
+.selected-color {
+    aspect-ratio: 1 / 1;
+    height: 30px;
+    width: 30px;
+    border-radius: 2px;
+}
+
+.selected-color:hover {
+    cursor: pointer;
+}  

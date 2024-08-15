@@ -1,0 +1,56 @@
+.end-note-container {
+    --svg-width: 50px;
+    --svg-height: 25px;
+
+    position: relative;
+    width: 100%;
+    opacity: 1 !important;
+}
+
+.end-note-container:hover {
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.end-note {
+    width: var(--svg-width);
+    height: var(--svg-height);
+
+    transition: opacity 1s ease-out;
+    z-index: 20;
+}
+
+.end-note_svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.end-note_note-text {
+    position: absolute;
+    width: calc(var(--svg-width)*0.4);
+    font-size: 14px;
+    font-family: Kanit-regular;
+    text-align: center;
+    line-height: 25px;
+    z-index: 100;
+    color: #000;
+}
+
+.end-note-string-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.end-note-string {
+    width: 100%;
+    height: 1px;
+    background-color: currentColor;
+    z-index: 10;
+
+    transform: translateY(-1px);
+}

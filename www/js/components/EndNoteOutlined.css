@@ -1,0 +1,46 @@
+.end-note {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 25px;
+    opacity: 0;
+
+    transform: translate(0, -50%);
+    transition: opacity 1s ease-out;
+    z-index: 20;
+}
+
+.end-note--button {
+    opacity: 0.5;
+}
+
+.end-note_masked-note-div {
+    position: absolute;
+    clip-path: url(#end-note-svgPath);
+    width: 100%;
+    height: 100%;
+
+    background-color: currentColor;
+}
+
+.end-note--button>.end-note_masked-note-div {
+
+}
+
+.end-note_svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 30;
+}
+
+.end-note_note-text {
+    position: absolute;
+    padding-left: 8px;
+    font-size: 14px;
+    font-family: Kanit-regular;
+    text-align: center;
+    line-height: 25px;
+    z-index: 20;
+}

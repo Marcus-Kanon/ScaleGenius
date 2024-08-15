@@ -1,0 +1,98 @@
+{
+    "name": "ScaleGenius - Guitar Scales and Chords",
+    "short_name": "ScaleGenius",
+    "start_url": "https://scalegenius.kanon.app",
+    "id": "/",
+    "launch_handler": {
+      "client_mode": ["focus-existing", "auto"]
+    },
+    "display": "fullscreen",
+    "background_color": "#110a00",
+    "description": "A tool for practicing guitar scales and chords",
+    "icons": [
+      {
+        "src": "img/icon-transparent.svg",
+        "sizes": "512x512",
+        "purpose": "any"
+      },
+      {
+        "src": "img/icon-transparent.svg",
+        "sizes": "512x512",
+        "purpose": "monochrome"
+      },
+      {
+        "src": "img/icon.svg",
+        "sizes": "any",
+        "type": "image/svg+xml",
+        "purpose": "maskable"
+      }
+    ],
+    "theme_color": "#110a00",
+    "dir": "ltr",
+    "scope": "https://scalegenius.kanon.app",
+    "lang": "en",
+    "orientation": "landscape",
+    "categories": [
+      "education",
+      "music",
+      "utilities"
+    ],
+    "screenshots" : [
+      {
+        "src": "img/playstore/phone-1.png",
+        "sizes": "1600x900",
+        "type": "image/png",
+        "form_factor": "wide",
+        "label": "ScaleGenius - Guitar Scales and Chords"
+      },
+      {
+        "src": "img/playstore/phone-2.png",
+        "sizes": "1600x900",
+        "type": "image/png",
+        "form_factor": "wide",
+        "label": "Select Chord"
+      },
+      {
+        "src": "img/playstore/phone-3.png",
+        "sizes": "1600x900",
+        "type": "image/png",
+        "form_factor": "wide",
+        "label": "Multiple Chords"
+      },
+      {
+        "src": "img/playstore/phone-4.png",
+        "sizes": "1600x900",
+        "type": "image/png",
+        "form_factor": "wide",
+        "label": "Chord Color"
+      },
+      {
+        "src": "img/playstore/phone-5.png",
+        "sizes": "1600x900",
+        "type": "image/png",
+        "form_factor": "wide",
+        "label": "Tune"
+      },
+      {
+        "src": "img/playstore/phone-6.png",
+        "sizes": "1600x900",
+        "type": "image/png",
+        "form_factor": "wide",
+        "label": "Tune individual strings"
+      },
+      {
+        "src": "img/playstore/phone-7.png",
+        "sizes": "1600x900",
+        "type": "image/png",
+        "form_factor": "wide",
+        "label": "Metronome"
+      },
+      {
+        "src": "img/playstore/phone-8.png",
+        "sizes": "1600x900",
+        "type": "image/png",
+        "form_factor": "wide",
+        "label": "Zoom in and out"
+      }
+    ]
+  }
