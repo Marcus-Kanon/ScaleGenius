@@ -5,6 +5,9 @@ name: Build App
 
 on:
   workflow_dispatch:
+
+env:
+  BUBBLEWRAP_MANIFEST_URL: ${{ vars.BUBBLEWRAP_MANIFEST_URL }}
 jobs:
   build:
 
@@ -14,3 +17,8 @@ jobs:
     - uses: actions/checkout@v4
     - name: Use Node.js
       uses: actions/setup-node@v4
+
+    - name: Install bubblewrap
+      run: npm i -g @bubblewrap/cli
+    - name: Initialize bubblewrap
+      run: bubblewrap init --manifest=$BUBBLEWRAP_MANIFEST_URL
