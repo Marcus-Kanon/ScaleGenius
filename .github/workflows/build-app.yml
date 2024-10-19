@@ -12,14 +12,15 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/googlechromelabs/bubblewrap:latest
 
     steps:
     - uses: actions/checkout@v4
-    - name: Use Node.js
-      uses: actions/setup-node@v4
-
-    - name: Initialize Bubblewrap
-      run: docker run --rm ghcr.io/googlechromelabs/bubblewrap:latest /bin/bash -c "bubblewrap init --manifest $BUBBLEWRAP_MANIFEST_URL"
+    
+    - name: Init bubblewrap
+      shell: bash
+      run: bubblewrap init --manifest $BUBBLEWRAP_MANIFEST_URL
 
 
 
