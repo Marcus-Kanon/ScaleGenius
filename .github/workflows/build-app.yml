@@ -20,7 +20,7 @@ jobs:
     
     - name: Init bubblewrap
       shell: bash
-      run: printf 'n\ny\n' | bubblewrap init --manifest $BUBBLEWRAP_MANIFEST_URL
+      run: printf 'y\ny\n' | bubblewrap init --manifest $BUBBLEWRAP_MANIFEST_URL
 
 
 
