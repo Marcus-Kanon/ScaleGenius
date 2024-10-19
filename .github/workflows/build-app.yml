@@ -19,7 +19,7 @@ jobs:
       uses: actions/setup-node@v4
 
     - name: Initialize Bubblewrap
-      run: docker run --rm -ti ghcr.io/googlechromelabs/bubblewrap:latest /bin/bash -c "bubblewrap init --manifest $BUBBLEWRAP_MANIFEST_URL"
+      run: docker run --rm ghcr.io/googlechromelabs/bubblewrap:latest /bin/bash -c "bubblewrap init --manifest $BUBBLEWRAP_MANIFEST_URL"
 
 
 
