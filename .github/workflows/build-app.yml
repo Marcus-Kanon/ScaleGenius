@@ -19,7 +19,7 @@ jobs:
       uses: actions/setup-node@v4
 
     - name: Install bubblewrap
-      run: yes | npm i -g @bubblewrap/cli
+      run: npm i -g @bubblewrap/cli
 
     - name: Initialize bubblewrap
-      run: bubblewrap init --manifest=$BUBBLEWRAP_MANIFEST_URL
+      run: yes | bubblewrap init --manifest=$BUBBLEWRAP_MANIFEST_URL
