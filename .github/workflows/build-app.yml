@@ -18,10 +18,12 @@ jobs:
     - name: Use Node.js
       uses: actions/setup-node@v4
 
-    - name: Install bubblewrap
-      run: npm i -g @bubblewrap/cli
+    - name: Initialize Bubblewrap
+      run: | 
+        docker run --rm -ti ghcr.io/googlechromelabs/bubblewrap:latest --help
+        docker run --rm -ti ghcr.io/googlechromelabs/bubblewrap:latest init --manifest $BUBBLEWRAP_MANIFEST_URL
 
-    - name: Initialize bubblewrap
-      run: printf 'y\ny\n' | bash -c "bubblewrap init --manifest-url $BUBBLEWRAP_MANIFEST_URL"
+
+
 
     
