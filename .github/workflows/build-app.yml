@@ -22,6 +22,6 @@ jobs:
       run: npm i -g @bubblewrap/cli
 
     - name: Initialize bubblewrap
-      run: yes | bash -c "bubblewrap init --manifest-url $BUBBLEWRAP_MANIFEST_URL"
+      run: printf 'y\ny\n' | bash -c "bubblewrap init --manifest-url $BUBBLEWRAP_MANIFEST_URL"
 
     
